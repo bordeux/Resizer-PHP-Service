@@ -1,0 +1,21 @@
+Options -Indexes
+<IfModule mod_php5.c>
+	php_value magic_quotes_gpc "off"
+	php_value magic_quotes_runtime "off"
+	php_value magic_quotes_sybase "off"
+</IfModule>
+
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresByType image/gif A3600
+	ExpiresByType image/png A3600
+	ExpiresByType image/jpeg A3600
+</IfModule>
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-s [NC]
+	RewriteCond %{REQUEST_FILENAME} !-d [NC]
+	RewriteRule ^(.+) application/xv-resize.php/$1 [L,QSA]
+</IfModule>
+DirectoryIndex index.php

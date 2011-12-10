@@ -1,0 +1,26 @@
+[[http://bordeux.net/XVweb/|&raquo; XVweb Project Home Page]]
+
+= Resizer-PHP-Service =
+
+This is clone of urlimg.com - The URL-based image processing service.
+
+
+= Usage =
+
+http://www.google.pl/images/logo.png  is in base64 aHR0cDovL3d3dy5nb29nbGUucGwvaW1hZ2VzL2xvZ28ucG5n
+
+http://example.tld/YOURPATH/base64/resize/32x32/aHR0cDovL3d3dy5nb29nbGUucGwvaW1hZ2VzL2xvZ28ucG5n.png
+http://example.tld/YOURPATH/base64/resize/32x32/aHR0cDovL3d3dy5nb29nbGUucGwvaW1hZ2VzL2xvZ28ucG5n.gif
+http://example.tld/YOURPATH/base64/resize/32x32/aHR0cDovL3d3dy5nb29nbGUucGwvaW1hZ2VzL2xvZ28ucG5n.jpg
+
+http://example.tld/YOURPATH/base64/width/32/aHR0cDovL3d3dy5nb29nbGUucGwvaW1hZ2VzL2xvZ28ucG5n.png
+http://example.tld/YOURPATH/base64/width/32/aHR0cDovL3d3dy5nb29nbGUucGwvaW1hZ2VzL2xvZ28ucG5n.gif
+http://example.tld/YOURPATH/base64/width/32/aHR0cDovL3d3dy5nb29nbGUucGwvaW1hZ2VzL2xvZ28ucG5n.jpg
+
+http://example.tld/YOURPATH/base64/height/32/aHR0cDovL3d3dy5nb29nbGUucGwvaW1hZ2VzL2xvZ28ucG5n.png
+http://example.tld/YOURPATH/base64/height/32/aHR0cDovL3d3dy5nb29nbGUucGwvaW1hZ2VzL2xvZ28ucG5n.gif
+http://example.tld/YOURPATH/base64/height/32/aHR0cDovL3d3dy5nb29nbGUucGwvaW1hZ2VzL2xvZ28ucG5n.jpg
+
+http://example.tld/YOURPATH/base64/scale/50/aHR0cDovL3d3dy5nb29nbGUucGwvaW1hZ2VzL2xvZ28ucG5n.png
+http://example.tld/YOURPATH/base64/scale/50/aHR0cDovL3d3dy5nb29nbGUucGwvaW1hZ2VzL2xvZ28ucG5n.gif
+http://example.tld/YOURPATH/base64/scale/50/aHR0cDovL3d3dy5nb29nbGUucGwvaW1hZ2VzL2xvZ28ucG5n.jpg
